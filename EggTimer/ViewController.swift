@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     
     ///A function that creates a timer. We are creating a timer that behaves as the updateTimer function. The 'updateTimer' function is called at every timeInterval. E.g. if timeInterval is equal to 1, therefore the 'updateTimer' is called once per second. If 'timeInterval' is equal to 2, then 'updateTimer' will be called twice per second, etc.
     func startEggTimer() {
-        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
     }
     
     /**
