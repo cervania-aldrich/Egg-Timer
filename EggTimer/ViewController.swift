@@ -16,16 +16,27 @@ class ViewController: UIViewController {
     
     // The following variables (Properties) are variables that are used in multiple functions (Scope), so that each function can have access to these containers to do something with them. Rather than repeatedly declaring a new variable in each function, update these variable instead. It's good practise to only make variables outside functions if you need that information in another function.
     
-    var eggTimesInSeconds = ["Soft":300, "Medium":480, "Hard":720] //Type inference automatically knows this dictionary is of type [String:Int].
+    ///A reference to the duration it takes to cook 3 types of eggs; Soft, Medium or Hard eggs.
+    ///Type inference automatically knows this dictionary is of type [String:Int].
+    var eggTimesInSeconds = ["Soft":300, "Medium":480, "Hard":720]
     
-    var totalTimeTilCancel = 10 //A reference to the time until the cancel button disappears.
+    ///A reference to the time until the cancel button disappears.
+    var totalTimeTilCancel = 10
     
-    var secondsRemainingToCookEgg:Int = 1 //Created to pass the updated value of this variable from 'hardnessSelected' function to the 'updateTimer' function. (Initial Value is 1 because it fixes the bug the occurs with the enableCancelButton function)
-    var timeRemaining = "" //A reference to the secondsRemainingToCookEgg variable, but converted as a String in the format of Minutes:Seconds.
-    var hardness = "" //A reference to the currentTitle of the hardnessSelected button.
+    ///Created to pass the updated value of this variable from 'hardnessSelected' function to the 'updateTimer' function. (Initial Value is 1 because it fixes the bug the occurs with the enableCancelButton function)
+    var secondsRemainingToCookEgg:Int = 1
     
-    var secondsPassed:Float = 0 //Used to reference a value being incremented by 1 (For the progressView).
-    var totalTime:Float = 0 //Used to reference an egg time from 'eggTimesInSeconds,' but expressed as a float (For the progressView).
+    ///A reference to the secondsRemainingToCookEgg variable, but converted as a String in the format of Minutes:Seconds.
+    var timeRemaining = ""
+    
+    ///A reference to the currentTitle of the hardnessSelected button.
+    var hardness = ""
+    
+    ///Used to reference a value being incremented by 1 (For the progressView).
+    var secondsPassed:Float = 0
+    
+    ///Used to reference an egg time from 'eggTimesInSeconds,' but expressed as a float (For the progressView).
+    var totalTime:Float = 0
     
     override func viewDidLoad() {
         timerLabel.alpha = 0 //Remove the opacity of the timerLabel (We only want to show the timerLabel after hardnessSelected - For better UX).
