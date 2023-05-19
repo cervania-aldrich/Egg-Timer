@@ -163,7 +163,7 @@ class ViewController: UIViewController {
         guard let soundURL = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3") else { return }
         
         do {
-            try AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default) //Sound will not play if phone is on silent mode.
+            try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default) //Sound will play even if phone is on silent mode.
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL) //Initialise the audioPlayer to play the audio from the soundURL.
             audioPlayer?.play() //Play from the player.
         } catch {
