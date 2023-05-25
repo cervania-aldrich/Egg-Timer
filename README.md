@@ -5,7 +5,7 @@
 ## Description
 This is an egg timer app to help you boil your eggs depending on how you prefer your eggs. 
 
-I created this app as part of the App Brewery's "Complete iOS App Development Bootcamp'' course on Udemy.
+I created this app as part of the [App Brewery's "Complete iOS App Development Bootcamp'' course on Udemy](https://www.udemy.com/course/ios-13-app-development-bootcamp/).
 
 Building on the lessons from the previous module [Xylophone](https://www.google.co.uk/), I have started to gain more confidence in how to look up something I have not done before. Additionally, I have learned many programming concepts along the way, such as conditional statements and functions with outputs, as well as the Swift Timer API.
 
