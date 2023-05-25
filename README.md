@@ -34,7 +34,7 @@ There are several concepts that I was able to learn whilst developing this app. 
 * How to debug an app.
     
 ## What makes this project stand out?
-In addition to the base features that was developed in the course, I innovated on top of the app to further my learning, such as:
+To improve my understanding, I added extra features to the app. This includes:
 
 * Express the countdown timer in Minutes and Seconds, and display this information in the UI.
 * Fix an issue where there was a delay in the initial start of the countdown timer.
@@ -47,9 +47,6 @@ In addition to the base features that was developed in the course, I innovated o
 * Reorganise code with functions.
 * Add comments to help explain my code.
 * Use the DocC framework to add Swift documentation to guide end-users reviewing the code.
-
-
-
 
 >This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 
