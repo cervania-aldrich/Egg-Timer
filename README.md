@@ -7,7 +7,7 @@ This is an egg timer app to help you boil your eggs depending on how you prefer 
 
 I created this app as part of the [App Brewery's "Complete iOS App Development Bootcamp'' course on Udemy](https://www.udemy.com/course/ios-13-app-development-bootcamp/).
 
-Building on the lessons from the previous module [Xylophone](https://www.google.co.uk/), I have started to gain more confidence in how to look up something I have not done before. Additionally, I have learned many programming concepts along the way, such as conditional statements and functions with outputs, as well as the Swift Timer API.
+Building on the lessons from the previous module [Xylophone](https://github.com/cervania-aldrich/Xylophone), I have started to gain more confidence in how to look up something I have not done before. Additionally, I have learned many programming concepts along the way, such as conditional statements and functions with outputs, as well as the Swift Timer API.
 
 I am particularly proud of building this app because it was the first app where I was able to add my own features and start to explore my creativity, including implementing stop functionality and converting the timer to display minutes-and-seconds instead of seconds-only (More details in the “What makes this project stand out?” section). Innovating on top of the app was challenging, because this was the first project where I got stuck and I had to figure things out on my own without the help of a tutorial. But by finishing the features I wanted to implement, it built my confidence and problem solving skills.
 
